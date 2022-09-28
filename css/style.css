@@ -1,0 +1,35 @@
+.ms_navbar {
+    background-color: gray;
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: blue;
+}
+
+.ms_btn {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: lightsalmon;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.ms_btn:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+.form-control.ms_floating-form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.form-control.ms_floating-form-control:focus {
+    box-shadow: none;
+}
